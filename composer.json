@@ -5,5 +5,9 @@
         "psr-4": {
             "Rules\\": "vendor/Rules/src"
         }
-    }
+    },
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "minimum-stability": "stable"
 }
