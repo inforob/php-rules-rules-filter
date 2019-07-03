@@ -4,14 +4,14 @@ namespace App\Classes;
 
 use App\Interfaces\RuleInterface;
 
-class isLessThat implements RuleInterface {
+class isLessThat extends Rule implements RuleInterface {
 
-    private $valueMax ;
+    private $valueMin ;
     
-    public function __construct(int $valueMax) {
-        $this->valueMax = $valueMax;
+    public function __construct(int $valueMin) {
+        $this->valueMin = $valueMin;
     }
     public function filter(array $arrayElements) : array {
-        return array_filter( $arrayElements, function($e) { if( $e < $this->valueMax) return $e; });
+        return array_filter( $arrayElements, function($e) { if( $e > $this->valueMin) return $e; });
     }
 }
