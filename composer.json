@@ -1,8 +1,6 @@
 {
     "name": "git ",
     "description": "a sample test for composer",
-    "version": "master",
-    "type": "project",
     "license": "MIT",
     "authors": [
         {
