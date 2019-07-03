@@ -3,7 +3,8 @@
 # CS-FIXER
 /.php_cs.cache
 # vendor directory
-/vendor
+/vendor/composer
+/vendor/autoload.php
 # phpunit 
 .phpunit.result.cache
 phpunit.xml.dist
