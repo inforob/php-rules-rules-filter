@@ -10,7 +10,7 @@ los commits almacenados por git.
 el nombre : v1.0.0 
 - añadiremos un nuevo commit al código en local y volvemos hacer push hacia el
 repositorio remoto.
-- añadiremos un segundo tag : v.2.0.0
+- añadiremos un segundo tag : v.1.0.2
 - colocaremos el puntero de git en el tag v.1.0.0 y daremos la práctica
 como finalizada.
 
