@@ -1,0 +1,9 @@
+{
+    "name": "php-rules/rules-filter",
+    "description": "a sample test for composer",
+    "autoload": {
+        "psr-4": {
+            "Rules\\": "vendor/Rules/src"
+        }
+    }
+}

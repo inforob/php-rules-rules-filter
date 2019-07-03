@@ -1,18 +1,13 @@
 <?php
 
-require_once('classes/ContainerRule.php');
-require_once('classes/Rule.php');
-require_once('interfaces/RuleInterface.php');
-require_once('classes/isMoreBigThat.php');
-require_once('classes/isLessThat.php');
-require_once('classes/isNumeric.php');
+require __DIR__ . '/vendor/autoload.php';
 
-use App\Classes\Rule;
-use App\Classes\ContainerRule;
+use Rules\Rule;
+use Rules\ContainerRule;
 
-use App\Classes\isNumeric;
-use App\Classes\isMoreBigThat;
-use App\Classes\isLessThat;
+use Rules\isNumeric;
+use Rules\isMoreBigThat;
+use Rules\isLessThat;
 
 $arrayElementsForFiltered = [1,2,3,4,5,'a','b','2',34,12,111];
 

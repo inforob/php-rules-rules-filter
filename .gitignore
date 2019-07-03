@@ -2,3 +2,5 @@
 /tests
 # CS-FIXER
 /.php_cs.cache
+# vendor directory
+/vendor
