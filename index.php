@@ -14,15 +14,13 @@ use App\Classes\isNumeric;
 use App\Classes\isMoreBigThat;
 use App\Classes\isLessThat;
 
-
 $arrayElementsForFiltered = [1,2,3,4,5,'a','b','2',34,12,111];
 
 $rule = new ContainerRule();
 $rule->addRule(new isNumeric());
+
+
 $rule->addRule(new isMoreBigThat(5));
 $rule->addRule(new isLessThat(2));
 
 $rule->execRule($arrayElementsForFiltered);
-
-
-?>

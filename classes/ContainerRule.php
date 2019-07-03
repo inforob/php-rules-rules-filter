@@ -2,22 +2,34 @@
 
 namespace App\Classes;
 
-
-class ContainerRule {
-
+class ContainerRule
+{
     private $rules = [];
 
     private $items = [];
 
-    public function addRule(Rule $rule) : void {
+    public function addRule(Rule $rule) : void
+    {
         $this->rules[] = $rule;
     }
 
-    public function execRule( array $elementsForFilter ) : void {
+    /**
+     * execRule
+     *
+     * run each rule and aply the filter method
+     * to each item from array origin
+     *
+     *
+     * @param array        $elementsForFilter item for filter
+     *
+     * @return void
+     */
 
+    public function execRule(array $elementsForFilter) : void
+    {
         $this->items = $elementsForFilter;
 
-        foreach($this->rules as $rule) {
+        foreach ($this->rules as $rule) {
             $this->items = $rule->filter($this->items);
         }
 

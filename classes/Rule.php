@@ -2,8 +2,8 @@
 
 namespace App\Classes;
 
+abstract class Rule
+{
 
-abstract class Rule  {
-
-    // 
+    //
 }

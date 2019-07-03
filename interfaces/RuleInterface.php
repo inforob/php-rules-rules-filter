@@ -2,8 +2,8 @@
 
 namespace App\Interfaces;
 
-interface RuleInterface 
+interface RuleInterface
 {
     // filter some items from a array
-    function filter(array $arrayElements) : array ;
+    public function filter(array $arrayElements) : array ;
 }
