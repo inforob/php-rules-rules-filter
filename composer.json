@@ -1,7 +1,7 @@
 {
     "name": "php-rules/rules-filter",
     "description": "a sample test for composer",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "project",
     "license": "MIT",
     "authors": [
