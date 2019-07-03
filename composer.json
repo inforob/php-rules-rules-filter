@@ -12,6 +12,7 @@
         }
     },
     "require": {
+        "vendor/package": "1.0.0",
         "php": ">=7.0.0"
     },
     "minimum-stability": "dev",
