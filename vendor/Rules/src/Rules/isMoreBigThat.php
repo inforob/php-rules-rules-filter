@@ -1,8 +1,9 @@
 <?php
 
-namespace Rules;
+namespace Rules\Rules;
 
 use Rules\Interfaces\RuleInterface;
+use Rules\Rule;
 
 class isMoreBigThat extends Rule implements RuleInterface
 {

@@ -5,9 +5,9 @@ require __DIR__ . '/vendor/autoload.php';
 
 use Rules\ContainerRule;
 
-use Rules\isNumeric;
-use Rules\isMoreBigThat;
-use Rules\isLessThat;
+use Rules\Rules\isNumeric;
+use Rules\Rules\isMoreBigThat;
+use Rules\Rules\isLessThat;
 
 $arrayElementsForFiltered = [1,2,3,4,5,'a','b','2',34,12,111];
 

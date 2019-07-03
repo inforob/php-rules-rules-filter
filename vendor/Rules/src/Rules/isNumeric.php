@@ -1,10 +1,9 @@
 <?php
 
-namespace Rules;
+namespace Rules\Rules;
 
 use Rules\Interfaces\RuleInterface;
-
-
+use Rules\Rule;
 
 class isNumeric extends Rule implements RuleInterface
 {

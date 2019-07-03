@@ -1,8 +1,9 @@
 <?php
 
-namespace Rules;
+namespace Rules\Rules;
 
 use Rules\Interfaces\RuleInterface;
+use Rules\Rule;
 
 class isLessThat extends Rule implements RuleInterface
 {
