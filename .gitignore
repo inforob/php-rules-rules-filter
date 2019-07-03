@@ -4,3 +4,6 @@
 /.php_cs.cache
 # vendor directory
 /vendor
+# phpunit 
+.phpunit.result.cache
+phpunit.xml.dist

@@ -2,7 +2,7 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Rules\Rule;
+
 use Rules\ContainerRule;
 
 use Rules\isNumeric;
