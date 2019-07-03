@@ -1,6 +1,7 @@
 {
     "name": "php-rules/rules-filter",
     "description": "a sample test for composer",
+    "version": "master",
     "authors": [
         {
             "name" : "Roberto Manchado"
@@ -15,6 +16,6 @@
         "vendor/package": "1.0.0",
         "php": ">=7.0.0"
     },
-    "minimum-stability": "dev-master",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
