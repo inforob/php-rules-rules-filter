@@ -6,3 +6,5 @@
 # phpunit 
 .phpunit.result.cache
 phpunit.xml.dist
+# task
+task.txt
