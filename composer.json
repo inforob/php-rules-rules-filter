@@ -1,6 +1,11 @@
 {
     "name": "php-rules/rules-filter",
     "description": "a sample test for composer",
+    "authors": [
+        {
+            "name" : "Roberto Manchado"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Rules\\": "vendor/Rules/src"
@@ -9,5 +14,6 @@
     "require": {
         "php": ">=7.0.0"
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
