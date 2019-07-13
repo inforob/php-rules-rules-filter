@@ -5,9 +5,7 @@ use PHPUnit\Framework\TestCase;
 
 use Rules\ContainerRule;
 
-use Rules\isNumeric;
-use Rules\isMoreBigThat;
-use Rules\isLessThat;
+use Rules\Rules\{isNumeric, isMoreBigThat, isLessThat};
 
 final class ContainerRuleTest extends TestCase
 {
@@ -29,7 +27,7 @@ final class ContainerRuleTest extends TestCase
 
     }
 
-  
+
 
 
 
